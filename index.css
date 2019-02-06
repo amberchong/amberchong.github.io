@@ -1,0 +1,76 @@
+body {
+	font-family: "Monsterrat";
+	color: white;
+	letter-spacing: 1px;
+	/*teal blue: #9FD8D8*/
+	/*background-image: url("Geometric.png");*/
+	/*background-repeat: no-repeat;*/
+	
+	background-color: #434A4A;
+}
+
+#header {
+	font-family: "Monsterrat", sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	text-transform: lowercase;
+	letter-spacing: 5px;
+	text-align: center;
+	color: white;
+	border: solid;
+	border-width: 5px;
+	border-color: #9FD8D8;
+	margin-bottom: 30px;
+	margin-left: 38%;
+	margin-right: 38%;
+	margin-top: 30px;
+}
+
+.bar {
+    font-family: "Monsterrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 3px;
+    /*background-color: #434A4A;*/
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline;
+	color: white;
+	text-align: center;
+	padding: 30px 30px 30px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #9FD8D8;
+	/*pink #EFA9D3*/
+}
+
+img.portrait {
+	display: block;
+	margin-top: 40px;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+    max-width: 20%;
+    max-height: 20%;
+}
+
+/*
+.pictures {
+	background-image: url("Geometric.png");
+	background-position: bottom;
+}
+
+/
