@@ -1,3 +1,12 @@
+body {
+	font-family: "Raleway";
+	color: white;
+	letter-spacing: 1px;
+	font-weight: 100;
+	background-color: #434A4A;
+	font-size: 10.5pt;
+}
+
 #header {
 	font-family: "Monsterrat", sans-serif;
 	font-size: 35px;
@@ -9,25 +18,22 @@
 	border: solid;
 	border-width: 5px;
 	border-color: #9FD8D8;
-	margin-bottom: 30px;
 	margin-left: 38%;
 	margin-right: 38%;
 	margin-top: 30px;
 }
 
-.bar {
-    font-family: "Monsterrat", sans-serif;
+/* NAVIGATION BAR*/
+ul {
+	font-family: "Monsterrat", sans-serif;
     color: white;
     font-weight: 200;
     letter-spacing: 3px;
-    background-color: #434A4A;
-}
-
-ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    text-align:center;
 }
 
 li {
@@ -35,16 +41,19 @@ li {
 }
 
 li a {
-	display: inline;
+	display: inline-block;
 	color: white;
-	text-align: center;
-	padding: 30px 30px 30px 30px;
+	padding: 40px;
 	text-decoration: none;
+	font-size: 12pt;
 }
 
 li a:hover {
 	color: #9FD8D8;
-	/*pink #EFA9D3*/
+}
+/* RESUME CONTENT*/
+.Contact {
+	text-align: right;
 }
 
 .Location {
@@ -54,11 +63,12 @@ li a:hover {
 
 .Titles {
     display: inline;
+    font-weight: bold;
 }
 
 .Subtext {
     display: inline;
-    /*text-indent: 30%:*/
+    margin-left: 40px;
 }
 
 .Date {
@@ -69,17 +79,5 @@ li a:hover {
 .Position {
     display: inline;
     font-style: italic;
-}
-
-body {
-    background-color: #ffffff;
-}
-
-body {
-	background-color: #434A4A;
-	font-family: "Monsterrat";
-	color: white;
-	letter-spacing: 1px;
-	/*teal blue: #9FD8D8*/
 }
 
