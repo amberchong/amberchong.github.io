@@ -1,11 +1,8 @@
 body {
-	font-family: "Monsterrat";
+	font-family: "Monsterrat", sans-serif;
 	color: white;
 	letter-spacing: 1px;
-	/*teal blue: #9FD8D8*/
-	/*background-image: url("Geometric.png");*/
-	/*background-repeat: no-repeat;*/
-	
+	font-weight: 100;
 	background-color: #434A4A;
 }
 
@@ -20,25 +17,22 @@ body {
 	border: solid;
 	border-width: 5px;
 	border-color: #9FD8D8;
-	margin-bottom: 30px;
 	margin-left: 38%;
 	margin-right: 38%;
 	margin-top: 30px;
 }
 
-.bar {
-    font-family: "Monsterrat", sans-serif;
+/* NAVIGATION BAR*/
+ul {
+	font-family: "Monsterrat", sans-serif;
     color: white;
     font-weight: 200;
     letter-spacing: 3px;
-    /*background-color: #434A4A;*/
-}
-
-ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    text-align:center;
 }
 
 li {
@@ -46,36 +40,44 @@ li {
 }
 
 li a {
-	display: inline;
+	display: inline-block;
 	color: white;
-	text-align: center;
-	padding: 30px 30px 30px 30px;
+	padding: 40px;
 	text-decoration: none;
 }
 
 li a:hover {
 	color: #9FD8D8;
-	/*pink #EFA9D3*/
 }
 
+/* PORTRAIT */
 img.portrait {
 	display: block;
-	margin-top: 40px;
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
     max-width: 20%;
     max-height: 20%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
 
-img.gif {
-	display: block;
-	margin-top: 40px;
+/* BIO PAGE */
+img.geometric{
+	position: sticky;
+	width: 100%;
 }
 
-/*
-.pictures {
-	background-image: url("Geometric.png");
-	background-position: bottom;
+.bio {
+	position: relative;
+	text-align: center;
 }
-
-/
+.text {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #434A4A;
+	line-height: 20pt;
+	letter-spacing: 1px;
+	padding: 10px 10px 10px 10px;
+	font-family: "Raleway";
+}
