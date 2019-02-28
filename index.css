@@ -75,9 +75,9 @@ img.geometric{
 	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #434A4A;
 	line-height: 20pt;
 	letter-spacing: 1px;
 	padding: 10px 10px 10px 10px;
 	font-family: "Raleway";
+	color: black;
 }
