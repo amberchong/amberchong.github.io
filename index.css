@@ -64,6 +64,25 @@ img.portrait {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
+}
+
+.box_Ltext{
+	text-align: left;
+	margin-left: 22%;
+	margin-top: 25%;
+	position: absolute;
+	color: black;
+	letter-spacing: 2px;
+}
+
+.box_Rtext{
+	text-align: left;
+	margin-left: 69%;
+	margin-top: 25%;
+	position: absolute;
+	color: black;
+	letter-spacing: 2px;
 }
 
 .boxL {	
@@ -71,7 +90,6 @@ img.portrait {
 	width: 20%;
 	margin-top: 30px;
 	margin-left: 10%;
-	margin-bottom: 30px;
 	margin-right: 10px;
 	float: left;
 	background-color: #434A4A;
@@ -82,7 +100,6 @@ img.portrait {
 	width: 59%;
 	margin-top: 30px;
 	margin-right: 10%;
-	margin-bottom: 30px;
 	float: right;
 	background-image: url("grid.png");
     background-size: contain;
@@ -103,11 +120,36 @@ img.portrait {
 }
 
 .box2 {
-	height: 650px;
-    background-image: url("geometric.png");
+	margin-top: 20px;
+	height: 400px;
+    background-image: url("banner.jpg"); 
+    background-size: cover;
+    background-position: center center;
+    font-family: "Raleway";
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact_box{
+	/*margin-top: 20px;*/
+	height: 200px;
+    /*background-image: url("interior.jpg");*/ 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: "Raleway";
+    color: white;
+    text-align: center;
+    /*padding: 30px;*/
+    border: solid;
+	border-width: 5px;
+	border-color: #9FD8D8;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 2;
 }
 
 .clearfix::after {
@@ -115,6 +157,25 @@ img.portrait {
   clear: both;
   display: table;
 }
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+  	width: 50%;
+  	background-color: #ddd;
+  	border-radius: 10px;
+}
+
+.skills {
+	font-family: "Raleway";
+  	text-align: left;
+  	margin-left: 25%;
+}
+
+.html {width: 60%; background-color: #6EBBC4; border-radius: 10px;}
+.css {width: 50%; background-color: #908BBD; border-radius: 10px;}
+.cplusplus {width: 65%; background-color: #6C94B7; border-radius: 10px;}
+.autocad {width: 50%; background-color: #A0BB9F; border-radius: 10px;}
 
 /* BIO PAGE */
 img.geometric{
